@@ -269,7 +269,7 @@ Object.preventExtensions(task8);
 //     6. Clear the list of tasks.
 console.log('----------Task9--------------');
 
-class Task {
+class TaskHW {
     constructor(name, status = 'new') {
         this.name = name;
         this.status = status;
@@ -292,7 +292,6 @@ class TaskList {
 
     removeTask(task) {
         this.tasks.splice(this.tasks.findIndex(t => t === task), 1);
-
     }
 
     clear() {
@@ -308,9 +307,9 @@ class TaskList {
     }
 }
 
-let t1 = new Task('Task1');
-let t2 = new Task('Task2');
-let t3 = new Task('Task3');
+let t1 = new TaskHW('Task1');
+let t2 = new TaskHW('Task2');
+let t3 = new TaskHW('Task3');
 
 let l1 = new TaskList();
 
