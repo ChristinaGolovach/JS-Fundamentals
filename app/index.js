@@ -4,9 +4,9 @@
 // import * as o04 from './04.objects';
 // import * as o05 from './05.date';
 // import * as o06 from './06.functions';
-// import * as o07 from './07.promises';
+ import * as o07 from './07.promises';
 // import * as o08 from './08.async-functions';
 // import * as o09 from './09.iterators';
 // import * as o10 from './10.dom';
 //import * as HWarray from './HW.array.js';
-import * as HWObject from './HW.object';
+//import * as HWObject from './HW.object';
